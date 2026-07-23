@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment / secrets — NEVER commit your REDIS_URL or tokens
+.env
+*.env
+secrets.*
+
+# Benchmark output (regenerated; keep the committed rl_boundary.png / rl_acceptance.png)
+rl_benchmark_results.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Jupyter / Colab
+.ipynb_checkpoints/

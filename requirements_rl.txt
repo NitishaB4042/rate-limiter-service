@@ -1,0 +1,6 @@
+redis
+fastapi
+uvicorn[standard]
+httpx
+matplotlib
+numpy

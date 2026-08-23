@@ -130,6 +130,4 @@ politeness layer used a token-bucket limiter). It was extracted into a
 standalone service and extended with the other three algorithms, an HTTP API,
 and the algorithm-comparison benchmark.
 
-## License
 
-MIT (or your choice).
